@@ -18,64 +18,71 @@ The app converts voice input into text notes and stores them locally so users ca
 
 ---
 
-## 🏗 Project Structure
+---
 
+## 🏗️ Project Structure
 
-lib/
-│
-├── models/
+```
+lib
+├── models
 │   └── voice_note.dart
 │
-├── providers/
+├── providers
 │   ├── notes_provider.dart
 │   └── theme_provider.dart
 │
-├── screens/
+├── screens
 │   ├── home_page.dart
 │   └── edit_note_page.dart
 │
-├── widgets/
+├── widgets
 │   ├── mic_button.dart
 │   └── note_tile.dart
 │
 └── main.dart
+```
 
-````
+### 📦 Models
+Defines the **data structure of voice notes** used in the application.
 
-### Models
-Defines the **data structure** of notes.
+### 🔄 Providers
+Handles **state management** using the **Provider** package.
 
-### Providers
-Manages **state management** using Provider.
+### 🖥️ Screens
+Contains the main **UI pages** such as:
+- Home Page
+- Edit Note Page
 
-### Screens
-Contains **UI pages** such as HomePage and EditNotePage.
-
-### Widgets
-Reusable UI components like note cards and mic button.
-
----
-
-# 🧠 Technologies Used
-
-- **Flutter**
-- **Dart**
-- **Provider (State Management)**
-- **Speech To Text**
-- **SharedPreferences**
-- **Material UI**
+### 🧩 Widgets
+Reusable UI components used across the application such as:
+- Microphone button
+- Note cards
 
 ---
 
-# 📦 Packages Used
+## 🧠 Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Flutter | Cross-platform mobile development |
+| Dart | Programming language |
+| Provider | State management |
+| Speech To Text | Convert voice to text |
+| SharedPreferences | Local data storage |
+| Material UI | User interface design |
+
+---
+
+## 📦 Packages Used
 
 ```yaml
-provider:
-speech_to_text:
-permission_handler:
-shared_preferences:
-intl:
-````
+dependencies:
+  provider: ^6.0.5
+  speech_to_text: ^6.6.0
+  permission_handler: ^11.3.0
+  shared_preferences: ^2.2.2
+  intl: ^0.18.1
+```
 
 ---
 
@@ -153,4 +160,5 @@ This project is for **educational purposes** and open for improvements.
 
 ```
 ```
+
 
