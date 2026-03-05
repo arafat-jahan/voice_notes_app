@@ -1,45 +1,25 @@
-```markdown
-# 🎙️ Voice Notes App (Flutter)
+# 🎤 Voice Notes App (Flutter)
 
-A modern **Voice Notes mobile application** built with **Flutter** that allows users to quickly create notes using **speech-to-text technology**. The app converts voice input into text notes and stores them locally for easy access, editing, and management.
-
-The project demonstrates the use of **Flutter UI design, Provider state management, speech recognition, and local storage** in a clean and structured architecture.
+A modern **Voice Notes mobile application** built with **Flutter** that allows users to quickly create notes using **speech-to-text technology**.  
+The app converts voice input into text notes and stores them locally so users can easily manage, edit, and search their notes.
 
 ---
 
-# 🚀 Features
+## ✨ Features
 
-- 🎤 **Speech to Text**
-  - Convert voice input into text notes instantly
-
-- 📝 **Create Notes**
-  - Automatically generate notes from voice recordings
-
-- ✏️ **Edit Notes**
-  - Update note title and description easily
-
-- 🗑️ **Delete Notes**
-  - Remove notes with confirmation dialog
-
-- 🔎 **Search Notes**
-  - Quickly find notes using the search bar
-
-- 🌙 **Dark / Light Mode**
-  - Toggle between dark and light theme
-
-- 💾 **Local Storage**
-  - Notes are stored locally using SharedPreferences
-
-- 🎨 **Modern UI**
-  - Clean and minimal interface with smooth animations
+- 🎤 Speech to Text voice note creation  
+- 📝 Create notes instantly using voice input  
+- ✏️ Edit existing notes  
+- 🗑 Delete notes with confirmation dialog  
+- 🔍 Search notes easily  
+- 🌙 Dark and Light theme support  
+- 💾 Local storage using SharedPreferences  
+- 🎨 Clean and modern UI  
 
 ---
 
-# 🏗️ Project Architecture
+## 🏗 Project Structure
 
-The project follows a **clean and modular Flutter architecture**.
-
-```
 
 lib/
 │
@@ -173,3 +153,4 @@ This project is for **educational purposes** and open for improvements.
 
 ```
 ```
+
