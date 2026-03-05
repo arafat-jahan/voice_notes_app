@@ -42,23 +42,7 @@ lib
 └── main.dart
 ```
 
-### 📦 Models
-Defines the **data structure of voice notes** used in the application.
 
-### 🔄 Providers
-Handles **state management** using the **Provider** package.
-
-### 🖥️ Screens
-Contains the main **UI pages** such as:
-- Home Page
-- Edit Note Page
-
-### 🧩 Widgets
-Reusable UI components used across the application such as:
-- Microphone button
-- Note cards
-
----
 
 ## 🧠 Technologies Used
 
@@ -91,7 +75,7 @@ dependencies:
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/voice-notes-app.git
+git clone https://github.com/arafat-jahan/voice-notes-app.git
 ```
 
 ### 2️⃣ Navigate to the project folder
@@ -160,5 +144,6 @@ This project is for **educational purposes** and open for improvements.
 
 ```
 ```
+
 
 
